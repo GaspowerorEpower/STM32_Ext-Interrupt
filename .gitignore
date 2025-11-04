@@ -1,0 +1,51 @@
+###############################################################################
+# STM32CubeIDE / STM32CubeMX Project .gitignore
+# Author: ChatGPT for Yiqi's STM32 projects
+###############################################################################
+
+# === Build directories ===
+/Debug/
+/Release/
+/build/
+/Core/Startup/
+*.o
+*.d
+*.lst
+*.map
+*.elf
+*.bin
+*.hex
+
+# === STM32CubeIDE / Eclipse project metadata ===
+/.settings/
+/.metadata/
+/.project
+/.cproject
+/.loadpath
+/*.launch
+
+# === Auto-generated code from CubeMX (optional) ===
+# You can comment out the next line if you want to track generated code.
+/STM32CubeMX.ioc
+
+# === IDE / System files ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# === CubeIDE-specific ===
+Core/Inc/stm32f*_hal_conf_template.h
+Core/Inc/stm32*_hal_conf_backup.h
+Core/Inc/stm32f*_it.h
+Core/Src/stm32f*_it.c
+
+# === Temporary logs ===
+*.log
+*.tmp
+
+# === Misc ===
+**/.vscode/
+**/.idea/
+

@@ -20,7 +20,7 @@
 #include "main.h"
 #include "i2c.h"
 #include "gpio.h"
-
+#include "buzzer.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
